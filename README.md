@@ -4,8 +4,8 @@ Proyecto para de examen a suficiencia para la materia de Fuentes de Datos en el 
 Progreso:
 
 ## Parte 1 - Extract
-- [ ] estaciones.xml
-- [ ] precios.xml
+- [x] estaciones.xml
+- [x] precios.xml
 
 ## Parte 2 - Transform 1 - precios.xml
 - [ ] precios.csv
