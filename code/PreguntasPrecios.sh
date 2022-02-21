@@ -5,7 +5,7 @@
 #    sirven gasolina regular: <z> . Donde  <z>  corresponde al 
 #    número de gasolineras.
 
-GasRegular=$(grep -oP '\d*\.{0,1}\d\,\d+\.{0,1}\d*,\d*\.{0,1}\d*,\d*\.{0,1}\d*' precios.csv | wc -l)
+GasRegular=$(grep -oP '\d*\.{0,1}\d*\,\d+\.{0,1}\d*,\d*\.{0,1}\d*,\d*\.{0,1}\d*' precios.csv | wc -l)
 echo 'gasolineras que sirven gasolina regular:' $GasRegular
 
 # 2. Con grep averigua ¿Cuántas gasolineras sirven gasolina  diesel
@@ -13,11 +13,15 @@ echo 'gasolineras que sirven gasolina regular:' $GasRegular
 #    sirven gasolina diesel: <y> . Donde  <y>  corresponde al número 
 #    de gasolineras.
 
+GasDiesel=$(grep -oP '\d*\.{0,1}\d*\,\d*\.{0,1}\d*,\d*\.{0,1}\d*,\d+\.{0,1}\d*' precios.csv | wc -l)
+echo 'gasolineras que sirven gasolina diesel:' $GasDiesel
 
 # 3. Con grep averigua ¿Cuántas gasolineras sirven  premium  en este
 #    conjunto de datos? Imprime en terminal  gasolineras que sirven 
 #    gasolina premium: <x> 
 
+GasPremium=$(grep -oP '\d*\.{0,1}\d*\,\d*\.{0,1}\d*,\d+\.{0,1}\d*,\d*\.{0,1}\d*' precios.csv | wc -l)
+echo 'gasolineras que sirven gasolina premium:' $GasPremium
 
 # 4. Con AWK averigua ¿De cuántas gasolineras diferentes tienes datos 
 #    de precios? * Te puedes apoyar de un archivo auxiliar creado 

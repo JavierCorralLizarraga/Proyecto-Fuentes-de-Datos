@@ -9,9 +9,9 @@ Progreso:
 
 ## Parte 2 - Transform 1 - precios.xml
 - [x] precios.csv
-- [ ] regular (grep)
-- [ ] diesel (grep)
-- [ ] premium (grep)
+- [x] regular (grep)
+- [x] diesel (grep)
+- [x] premium (grep)
 - [ ] precios gasolineras diferentes (awk + sed/grep)
 - [ ] observaciones de precio
 
