@@ -9,10 +9,11 @@ echo $columnas > precios.csv
 touch aux
 touch BloqueEstacion
 grep -nP '(?<=place_id=")\d{5}(?=">)' $precios | cut  -d : -f 1 > aux
+line1="$(awk 'NR==1' aux)" 
+line2="$(awk 'NR==2' aux)"  
 cat aux | while read line 
 do  
-    line1="$(awk 'NR==1' aux)" 
-    line2="$(awk 'NR==2' aux)"  
+    echo $line
     if [[ "$line1" == "$line" ]] # si es la primera linea
     then 
         pre=$line
