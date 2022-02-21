@@ -8,7 +8,7 @@ Progreso:
 - [x] precios.xml
 
 ## Parte 2 - Transform 1 - precios.xml
-- [ ] precios.csv
+- [x] precios.csv
 - [ ] regular (grep)
 - [ ] diesel (grep)
 - [ ] premium (grep)
