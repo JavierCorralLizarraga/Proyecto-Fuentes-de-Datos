@@ -28,10 +28,11 @@ echo 'gasolineras que sirven gasolina premium:' $GasPremium
 #    con  grep  o  sed . Imprime en terminal  gasolineras diferentes:
 #    <m> . Donde  <m>  corresponde al número de gasolineras.
 
+echo 'gasolineras diferentes:' $GasPremium
 
 # 5. ¿Cuántos renglones de precios de gasolina tienes (una vez que 
 #    ya tienes 1 renglón por estación de gasolina)? Imprime en 
 #    terminal  observaciones de precios: <n> . Donde  <n>  
 #    corresponde al número de gasolineras.
 
-
+echo 'observaciones de precios:' $GasPremium
