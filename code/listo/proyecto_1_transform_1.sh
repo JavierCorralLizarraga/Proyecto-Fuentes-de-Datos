@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#precios=$1 
-precios=precios.xml
+precios=$1 
 columnas="estacion_servicio, regular, premium, diesel" 
 
 touch precios.csv
