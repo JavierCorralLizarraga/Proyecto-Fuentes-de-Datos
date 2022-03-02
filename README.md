@@ -43,7 +43,7 @@ Progreso:
 - [ ] analisis.ipynb
 
 ## Parte 7 - Analisis con Pandas
-- [ ] conextar a BD
+- [ ] conectar a BD
 - [ ] query sql
 - [ ] pandas
 
