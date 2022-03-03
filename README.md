@@ -16,7 +16,7 @@ Progreso:
 - [ ] observaciones de precio
 
 ## Parte 3 - Transform 2 - estaciones.xml
-- [ ] estaciones.csv
+- [x] estaciones.csv
 - [ ] name minuscula (sed, no archivo auxiliar)
 - [ ] name sin acentos (sed, no archivo auxiliar)
 - [ ] name sin signos de puntiacion (sed, no archivo auxiliar)
