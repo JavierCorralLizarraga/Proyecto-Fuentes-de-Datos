@@ -30,7 +30,7 @@ do
     name="$(grep -oP '(?<=<name>).*(?=<\/name>)' BloqueEstacion)" # matcheamos el nombre del bloque
     latitud="$(grep -oP '(?<=<x>).*(?=<\/x>)' BloqueEstacion)" # matcheamos la latitud del bloque
     longitud="$(grep -oP '(?<=<y>).*(?=<\/y>)' BloqueEstacion)" # matcheamos la longitud del bloque
-    echo $id','$name','$latitud','$longitud >> estaciones.csv # agregamos los datos como una nueva linea a precios.csv
+    echo $id',"'$name'",'$latitud','$longitud >> estaciones.csv # agregamos los datos como una nueva linea a precios.csv
 done
 rm aux 
 rm BloqueEstacion
