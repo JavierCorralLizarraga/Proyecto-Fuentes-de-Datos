@@ -28,7 +28,13 @@ echo 'gasolineras que sirven gasolina premium:' $GasPremium
 #    con  grep  o  sed . Imprime en terminal  gasolineras diferentes:
 #    <m> . Donde  <m>  corresponde al número de gasolineras.
 
-GasDiferentes=$(sed '1d' precios.csv | awk -F ',' '{print $1}' | sort | uniq -c)
+GasDiferentes=$(sed '1d' precios.csv | 
+    awk -F, '
+    {
+    if($1 != ""){
+        n++
+    }
+    }END{print n}')
 echo 'gasolineras diferentes:' $GasDiferentes
 
 # 5. ¿Cuántos renglones de precios de gasolina tienes (una vez que 
