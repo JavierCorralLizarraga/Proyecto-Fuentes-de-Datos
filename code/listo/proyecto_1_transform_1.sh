@@ -1,7 +1,7 @@
 #!/bin/bash
 
 precios=$1 
-columnas="estacion_servicio, regular, premium, diesel" 
+columnas="estacion_servicio,regular,premium,diesel" 
 
 touch precios.csv
 echo $columnas > precios.csv
