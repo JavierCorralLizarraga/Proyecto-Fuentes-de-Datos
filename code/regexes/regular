@@ -1,1 +1,0 @@
-(?<=regular">)\d+.*\d*(?=<\/gas_price>)
