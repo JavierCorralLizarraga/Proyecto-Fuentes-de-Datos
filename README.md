@@ -17,9 +17,9 @@ Progreso:
 
 ## Parte 3 - Transform 2 - estaciones.xml
 - [x] estaciones.csv
-- [ ] name minuscula (sed, no archivo auxiliar)
-- [ ] name sin acentos (sed, no archivo auxiliar)
-- [ ] name sin signos de puntiacion (sed, no archivo auxiliar)
+- [x] name minuscula (sed, no archivo auxiliar)
+- [x] name sin acentos (sed, no archivo auxiliar)
+- [x] name sin signos de puntuacion (sed, no archivo auxiliar)
 - [ ] gasolineras diferentes geolocalizacion (awk)
 
 ## Parte 4 - Load
