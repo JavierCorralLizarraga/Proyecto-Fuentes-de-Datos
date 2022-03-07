@@ -23,13 +23,13 @@ Progreso:
 - [x] gasolineras diferentes geolocalizacion (awk)
 
 ## Parte 4 - Load
-- [ ] upload.sql
-- [ ] borrar raw
-- [ ] crear raw
-- [ ] borrar tabla
-- [ ] crear tabla estaciones
-- [ ] borrar tabla raw.precios si existe
-- [ ] tabla precios
+- [x] upload.sql
+- [x] borrar raw
+- [x] crear raw
+- [x] borrar tabla
+- [x] crear tabla estaciones
+- [x] borrar tabla raw.precios si existe
+- [x] tabla precios
 - [ ] proyecto_1_load.sh
 - [ ] psql
 - [ ] poblar tabla raw.precios
