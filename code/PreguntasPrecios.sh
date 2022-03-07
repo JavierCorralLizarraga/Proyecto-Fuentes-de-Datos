@@ -31,7 +31,7 @@ echo 'gasolineras que sirven gasolina premium:' $GasPremium
 GasDiferentes=$(sed '1d' precios.csv | 
     awk -F, '
     {
-    if($1 != ""){
+    if($2 != "" || $3 !=""  || $4!=""){
         n++
     }
     }END{print n}')
@@ -42,4 +42,5 @@ echo 'gasolineras diferentes:' $GasDiferentes
 #    terminal  observaciones de precios: <n> . Donde  <n>  
 #    corresponde al número de gasolineras.
 
+RenglonesPrecios=$(sed '1d' precios.csv | wc -l)
 echo 'observaciones de precios:' $RenglonesPrecios
