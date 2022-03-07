@@ -12,8 +12,8 @@ Progreso:
 - [x] regular (grep)
 - [x] diesel (grep)
 - [x] premium (grep)
-- [ ] precios gasolineras diferentes (awk + sed/grep)
-- [ ] observaciones de precio
+- [x] precios gasolineras diferentes (awk + sed/grep)
+- [x] observaciones de precio
 
 ## Parte 3 - Transform 2 - estaciones.xml
 - [x] estaciones.csv
