@@ -35,9 +35,9 @@ Progreso:
 - [x] poblar tabla raw.precios
 
 ## Parte 5 - Wrap it up
-- [ ] incluir parametro precios.xml
-- [ ] incluir parametro estaciones.xml
-- [ ] proyecto_1_load.sh
+- [x] incluir parametro precios.xml
+- [x] incluir parametro estaciones.xml
+- [x] proyecto_1_load.sh
 
 ## Parte 6 - Analisis de datos
 - [ ] analisis.ipynb

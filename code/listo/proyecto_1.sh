@@ -13,7 +13,11 @@ then
     mv 2JNcTha precios.xml
 fi
 
+bash proyecto_1_transform_1.sh precios.xml
 
+bash proyecto_1_transform_2.sh estaciones.xml
+
+bash proyecto_1_load.sh
 
 
 
