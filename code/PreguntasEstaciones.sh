@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# recuerda el -i (inplace) en todas
-
 # 2. Con  sed  cambiar a minúsculas el contenido del atributo  name  (sin crear otro archivo)
 sed -i 's/[A-Z]/\L&/g' estaciones.csv
 
@@ -18,4 +16,16 @@ do
 done
 
 # 5. Con  AWK  averigua ¿De cuántas estaciones diferentes tienes geolocalización?
+
+geo=$(sed '1d' estaciones.csv | 
+    awk -F, '
+    {
+        if($3 != "" && $4 != ""){
+            n++
+        }
+    }END{
+        print n
+    }')
+
+echo "estaciones diferentes:" $geo
 
