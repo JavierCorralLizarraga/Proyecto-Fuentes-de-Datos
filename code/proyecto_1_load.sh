@@ -1,4 +1,5 @@
- psql -f updload.sql service=fuentes_datos
+#!/bin/bash
 
-psql -c '\copy raw.precios from precios.csv with csv header;'
-service=fuentes_datos 
+psql -f updload.sql service=fuentes_datos
+
+psql -c '\copy raw.precios from precios.csv with csv header'service=fuentes_datos 

@@ -30,9 +30,9 @@ Progreso:
 - [x] crear tabla estaciones
 - [x] borrar tabla raw.precios si existe
 - [x] tabla precios
-- [ ] proyecto_1_load.sh
-- [ ] psql
-- [ ] poblar tabla raw.precios
+- [x] proyecto_1_load.sh
+- [x] psql
+- [x] poblar tabla raw.precios
 
 ## Parte 5 - Wrap it up
 - [ ] incluir parametro precios.xml
