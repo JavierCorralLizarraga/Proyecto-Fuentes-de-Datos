@@ -40,7 +40,7 @@ Progreso:
 - [x] proyecto_1_load.sh
 
 ## Parte 6 - Analisis de datos
-- [ ] analisis.ipynb
+- [x] analisis.ipynb
 
 ## Parte 7 - Analisis con Pandas
 - [ ] conectar a BD
