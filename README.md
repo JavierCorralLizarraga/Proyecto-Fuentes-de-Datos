@@ -20,7 +20,7 @@ Progreso:
 - [x] name minuscula (sed, no archivo auxiliar)
 - [x] name sin acentos (sed, no archivo auxiliar)
 - [x] name sin signos de puntuacion (sed, no archivo auxiliar)
-- [ ] gasolineras diferentes geolocalizacion (awk)
+- [x] gasolineras diferentes geolocalizacion (awk)
 
 ## Parte 4 - Load
 - [ ] upload.sql
