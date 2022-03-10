@@ -27,7 +27,7 @@ do
     awk -v pre=$pre -v post=$post 'NR>=pre && NR<=post' $estaciones  > BloqueEstacion # tomamos el bloque del archivo desde un id hasta el otro 
     sed -i '$ d' BloqueEstacion # borramos el 2do id matcheado para que no haya confusiones
     id="$(grep -oP '(?<=place_id=")\d{4,5}(?=">)' BloqueEstacion | uniq)" # matcheamos el id del bloque
-    name="$(grep -oP '(?<=<name>).*(?=<\/name>)' BloqueEstacion)" # matcheamos el nombre del bloque
+    name="$(grep -oP '(?<=<name>).*(?=<\/name>)' BloqueEstacion | sed -e 's/,//g' -e 's/;//g' -e 's/\.//g' -e 's/://g' -e 's/-//g')" # matcheamos el nombre del bloque y quitamos los signos de puntuacion
     latitud="$(grep -oP '(?<=<x>).*(?=<\/x>)' BloqueEstacion)" # matcheamos la latitud del bloque
     longitud="$(grep -oP '(?<=<y>).*(?=<\/y>)' BloqueEstacion)" # matcheamos la longitud del bloque
     echo $id',"'$name'",'$latitud','$longitud >> estaciones.csv # agregamos los datos como una nueva linea a precios.csv
