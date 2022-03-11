@@ -45,12 +45,12 @@ Progreso:
 ## Parte 7 - Analisis con Pandas
 - [ ] conectar a BD
 - [ ] query sql
-- [ ] pandas
+- [x] pandas
 
 ## Parte 8 - Visualizacion
-- [ ] boxplot
-- [ ] histograma
-- [ ] mapa registros
-- [ ] mapa regular
-- [ ] mapa premium
-- [ ] mapa diesel
+- [x] boxplot
+- [x] histograma
+- [x] mapa registros
+- [x] mapa regular
+- [x] mapa premium
+- [x] mapa diesel
