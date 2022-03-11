@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#estaciones=$1
-estaciones=estaciones.xml
+estaciones=$1
 columnas="id_estacion,nombre,latitud,longitud" 
 
 touch estaciones.csv
